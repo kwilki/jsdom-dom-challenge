@@ -28,7 +28,7 @@ function decrementCount() {
 }
 
 function toggleCount(event) {
-    if(event.target.innertext === "pause") {
+    if (event.target.innerText === "pause") {
         clearInterval(timer)
         event.target.innerText = "resume"
     } else {
